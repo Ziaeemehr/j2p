@@ -3,8 +3,9 @@ name: Publish to PyPI
 on:
   push:
     tags:
-      - "v*"  # Runs only when you push a version tag like "v1.0.0"
-
+      - "v*"  # Runs when you push a version tag like "v1.0.0"
+    branches:
+      - main  # Runs when you push to the main branch
 jobs:
   build-and-publish:
     name: Build and publish Python package
