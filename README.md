@@ -10,7 +10,7 @@ This tiny package provide a cleaner solution [Medium post](https://a-ziaeemehr.m
 ## Installation
 
 ```bash
-pip install jupy
+pip install ju2py
 ```
 
 ## Usage
